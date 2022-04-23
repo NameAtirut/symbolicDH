@@ -7,4 +7,5 @@ alpha_list = [0,0,0]
 a_list = [10,10,10]
 
 result = dhTransformAll(theta_list, d_list, alpha_list, a_list)
-result.astype(np.float16)
+result = result.astype(np.float16)
+print(result)
